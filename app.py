@@ -170,3 +170,4 @@ with gr.Blocks(title="Grand Paws - Pet Hotel",css=css,theme=gr.themes.Soft()) as
 
 app.launch(server_name="0.0.0.0"
            server_port=int(os.environ.get("PORT",7860)),share=False
+)
